@@ -87,15 +87,13 @@
     "@types/webgl2" "0.0.4"
     seedrandom "2.4.3"
 
-"@tensorflow/tfjs-data@0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-data/-/tfjs-data-0.1.4.tgz#4732a2505c5d7d0d8ba0458f5b92837fd02ba442"
-  integrity sha512-YwaWNZnJj++QFEHQ1AKLqn2fvnmSp1X6CJ5YL5XJhq+m8P0AoouW9IpumCgO6WSjnD1M83/cVGZXzDIgJ4IlLg==
+"@tensorflow/tfjs-data@2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-data/-/tfjs-data-2.5.0.tgz#87b46a77b955b8a836a65e334554d718b8b3cb02"
+  integrity sha512-gkLMWdEWj7X74vOenQrE2Jz27f84Muc6OtlZMy10x1Iwcd8nCyYO/gwKY4Yucnsm3twd571n37jZYvwXw1GVGw==
   dependencies:
     "@types/node-fetch" "^2.1.2"
-    node-fetch "~2.1.2"
-    seedrandom "~2.4.3"
-    utf8 "~2.1.2"
+    node-fetch "~2.6.1"
 
 "@tensorflow/tfjs-layers@0.9.1":
   version "0.9.1"
@@ -3453,10 +3451,10 @@ node-fetch@^2.1.1:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
   integrity sha512-MOd8pV3fxENbryESLgVIeaGKrdl+uaYhCSSVkjeOb/31/njTpcis5aWfdqgNlHIrKOLRbMnfPINPOML2CIFeXA==
 
-node-fetch@~2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.1.2.tgz#ab884e8e7e57e38a944753cec706f788d1768bb5"
-  integrity sha1-q4hOjn5X44qUR1POxwb3iNF2i7U=
+node-fetch@~2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 node-pre-gyp@^0.10.0:
   version "0.10.3"
@@ -4475,11 +4473,6 @@ seedrandom@2.4.3:
   resolved "https://registry.yarnpkg.com/seedrandom/-/seedrandom-2.4.3.tgz#2438504dad33917314bff18ac4d794f16d6aaecc"
   integrity sha1-JDhQTa0zkXMUv/GKxNeU8W1qrsw=
 
-seedrandom@~2.4.3:
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/seedrandom/-/seedrandom-2.4.4.tgz#b25ea98632c73e45f58b77cfaa931678df01f9ba"
-  integrity sha512-9A+PDmgm+2du77B5i0Ip2cxOqqHjgNxnBgglxLcX78A2D6c2rTo61z4jnVABpF4cKeDMDG+cmXXvdnqse2VqMA==
-
 "semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.5.0:
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
@@ -5282,11 +5275,6 @@ useragent@2.2.1:
   dependencies:
     lru-cache "2.2.x"
     tmp "0.0.x"
-
-utf8@~2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/utf8/-/utf8-2.1.2.tgz#1fa0d9270e9be850d9b05027f63519bf46457d96"
-  integrity sha1-H6DZJw6b6FDZsFAn9jUZv0ZFfZY=
 
 util-deprecate@~1.0.1:
   version "1.0.2"
